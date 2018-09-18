@@ -3,16 +3,11 @@ import "../App.css";
 
 class Project extends Component {
   render() {
-    const { item } = this.props;
+    const { item, src } = this.props;
     return (
-      <div  key={item.id} className="P-frame">
+      <div key={item.id} className="P-frame">
         <a href={item.href}>
-          <img
-           className="Link"
-            src={item.src}
-            alt={item.name}
-            key={item.id}
-          />
+          <img className="Link" src={src} alt={item.name} key={item.id} />
         </a>
         <div className="Desc">
           <h3>{item.name}</h3>

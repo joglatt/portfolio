@@ -11,9 +11,11 @@ class Frame extends Component {
       <div className="Projects">
         <h2>Projects:</h2>
         <hr />
-        {projects.map(item => (
-          <Project item={item} />
-        ))}
+        {/* {projects.map(item => ( */}
+          <Project item={projects[0]} src={project3} />
+          <Project item={projects[1]} src={project2} />
+          <Project item={projects[2]} src={project1} />
+        {/* ))} */}
       </div>
     );
   }
