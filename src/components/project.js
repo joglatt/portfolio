@@ -5,7 +5,7 @@ class Project extends Component {
   render() {
     const { item } = this.props;
     return (
-      <div className="P-frame">
+      <div  key={item.id} className="P-frame">
         <a href={item.href}>
           <img
            className="Link"
