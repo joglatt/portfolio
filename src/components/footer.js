@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import linkedIn from "./images/linkedin.png";
-import github from "./images/github.png";
+import linkedIn from "../images/linkedin.png";
+import github from "../images/github.png";
 class Footer extends Component {
   render() {
     return (
