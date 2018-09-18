@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+}
+
+html {
+  background-image: url("/images/background.png");
+}
+
+.Header {
+  padding: 1%;
+  margin-bottom: 10%;
+  background: #3a5134;
+  overflow: hidden;
+  color: whitesmoke;
+  border-bottom: 4px solid #4f953b;
+  overflow: auto;
+}
+
+.Tag {
+  padding: .2%;
+  margin-left: 1%;
+  font-size: 1.5em;
+  text-shadow: 2px 2px darkslategray;
+}
+
+.HeaderLink {
+  margin-right: 1%;
+  float: right;
+  text-decoration: none;
+  padding-bottom: 1%;
+  color: whitesmoke;
+}
+
+#HeadShot {
+  width: 30%;
+  border:3px solid #8c9184;
+}
+
+#Bio {
+  margin: 0 auto;
+  margin-bottom: 15%;
+  width: 90%;
+  padding: 4%;
+  background: #a7a7a2;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5), 10px 10px 15px rgba(0, 0, 0, 0.5), -1px -1px 30px rgba(0, 0, 0, 0.2);
+  border: 3px solid #8c9184;
+}
+
+#textBox {
+  margin: 0 auto;
+  width: 70%;
+  text-indent: 50px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.Frame {
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 3%;
+}
+
+.Projects {
+  background: #a7a7a2;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5), 10px 10px 15px rgba(0, 0, 0, 0.5), -1px -1px 30px rgba(0, 0, 0, 0.2);
+  border: 3px solid #8c9184;
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 4%;
+}
+
+.P-frame {
+  margin-bottom: 5%;
+  overflow: auto;
+}
+
+.Link {
+  width: 38%;
+  float: left;
+  border: 2px solid black;
+}
+
+.Desc {
+  width: 60%;
+  float: right;
+  padding-left: 1%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#Contact {
+  margin: 0 auto;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  width: 90%;
+  padding: 4%;
+  background: #a7a7a2;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5), 10px 10px 15px rgba(0, 0, 0, 0.5), -1px -1px 30px rgba(0, 0, 0, 0.2);
+  border: 3px solid #8c9184;
+}
+
+#Footer {
+  background: #3a5134;
+  color: whitesmoke;
+  text-align: center;
+}
+
+#Logos {
+  padding-top: .3%;
+}
+
+.footerLink {
+  padding: 0 .5%;
+}
+
+#Cr {
+  padding-bottom: .3%;
+}
