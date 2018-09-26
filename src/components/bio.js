@@ -9,20 +9,18 @@ const Bio = () => {
       <div id="textBox">
         <h3>About Me</h3>
         <p>
-          I am a full stack web developer located in the New York area. I have
-          experience building MERN stack web applications. Currently, I am
-          refining the skills within my stack but would relish the opportunity
-          to learn new technologies. I possess a good understanding of vanilla
-          Javascript fundamentals so I am able to efficently learn new
-          frameworks and libraries.
+          I am a full stack web developer located in the New York area with
+          experience building full stack web applications. Currently, I am
+          refining my MERN stack (MongoDB, Express, React, and Node) skills but would
+          relish the opportunity to learn new technologies. I possess a good
+          understanding of vanilla Javascript fundamentals so I find I am able
+          to efficently learn new frameworks and libraries.
         </p>
-        <br />
         <p>
-          As a thinker, I am process driven and foucsed, methodically planning
+          As a thinker, I am process driven and focused, methodically planning
           projects and analyzing problems. Rather than rushing to a complex
-          solution or new tool that may or may not be neccessary, I try to focus
-          on a minimum viable product before attempting to improve and add
-          functionality.
+          solution or new tool that may or may not be neccessary, I attempt to
+          answer the fundamental problems with as basic a solution as possible.
         </p>
       </div>
     </div>
